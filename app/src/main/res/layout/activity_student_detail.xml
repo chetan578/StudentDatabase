@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentDetail">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="66dp"
+            android:ems="10"
+            android:hint="enter student name"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/ageSpinner"
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editTextName"
+            android:layout_below="@+id/textView"
+            android:entries="@array/student" />
+
+        <Button
+            android:id="@+id/addStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="55dp"
+            android:backgroundTint="@android:color/holo_purple"
+            android:text="SAVE STUDENT" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editTextName"
+            android:layout_marginTop="131dp"
+            android:text="Select Student Age"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editTextName"
+            android:layout_marginTop="202dp"
+            android:text="Enter School Name"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/schoolName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editTextName"
+            android:layout_marginTop="239dp"
+            android:ems="10"
+            android:hint="school name "
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/editTextName"
+            android:layout_marginBottom="194dp"
+            android:text="Enter number of subjects studied"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/subjectSpinner"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editTextName"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="-194dp"
+            android:entries="@array/subjects" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/editTextName"
+            android:layout_marginTop="25dp"
+            android:text="Enter Student Name "
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

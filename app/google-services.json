@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "157401576360",
+    "firebase_url": "https://authentication-c9feb.firebaseio.com",
+    "project_id": "authentication-c9feb",
+    "storage_bucket": "authentication-c9feb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157401576360:android:d35769fa4c07fbfc",
+        "android_client_info": {
+          "package_name": "com.example.chetan578.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157401576360-dmsq33nr6s3526984j1d17gvp209dhun.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chetan578.authentication",
+            "certificate_hash": "71011babad6a6ab7634d67199d2a3fe47674dec1"
+          }
+        },
+        {
+          "client_id": "157401576360-jrq0o3s6lf7p9uo8br496u0bn82rlrc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6lC9O2_GW4BCz10TxXIlMboI8oA9BI2M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157401576360-jrq0o3s6lf7p9uo8br496u0bn82rlrc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
